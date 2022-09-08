@@ -31,7 +31,7 @@ public class Kata_Calculator {
         System.out.println(calc(num));                                                                                // Вывод на экран результат метода calc
     }
     public static String calc(String input) {                                                                         // Создание метода calc, принимающий аргумент класса String
-        var s = input.split(" ");                                                                       // Создание массива класса String - разделяющий строку на элементы по пробелам
+        var s = input.split(" ");                                                                                     // Создание массива класса String - разделяющий строку на элементы по пробелам
         int result = 0;                                                                                               // Создание переменной result типа int, принимающей результат
         int a = 0;                                                                                                    // Создание переменной типа int
         int b = 0;                                                                                                    // Создание переменной типа int
